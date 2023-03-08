@@ -5,7 +5,7 @@
 #include <chrono>
 
 void pow_a(int *a, int *b, int n, int m) {
-    // TODO: 使用 omp parallel for 并行这个循环
+    #pragma omp parallel for
     for (int i = 0; i < n; i++) {
         int x = 1;
         for (int j = 0; j < m; j++)
