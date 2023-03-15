@@ -1,0 +1,224 @@
+Iter 0 MPI_Send: 83.5431 ms
+Iter 0 Compute: 10.0925 ms
+Iter 1 MPI_Send: 83.6934 ms
+Iter 1 Compute: 10.0081 ms
+Iter 2 MPI_Send: 83.6598 ms
+Iter 2 Compute: 10.006 ms
+Iter 3 MPI_Send: 83.7595 ms
+Iter 3 Compute: 10.0046 ms
+Iter 4 MPI_Send: 83.7763 ms
+Iter 4 Compute: 10.0047 ms
+Iter 5 MPI_Send: 83.8944 ms
+Iter 5 Compute: 10.0036 ms
+Iter 6 MPI_Send: 83.8705 ms
+Iter 6 Compute: 10.0033 ms
+Iter 7 MPI_Send: 83.8957 ms
+Iter 7 Compute: 10.0058 ms
+Iter 8 MPI_Send: 83.8805 ms
+Iter 8 Compute: 10.0033 ms
+Iter 9 MPI_Send: 84.0086 ms
+Iter 9 Compute: 10.0506 ms
+Total: 938.204 ms
+
+Iter 0 MPI_Isend: 0.05418 ms
+Iter 0 Compute: 10.0705 ms
+Iter 1 MPI_Isend: 0.00147 ms
+Iter 1 Compute: 10.0027 ms
+Iter 2 MPI_Isend: 0.000577 ms
+Iter 2 Compute: 10.002 ms
+Iter 3 MPI_Isend: 0.000449 ms
+Iter 3 Compute: 10.0016 ms
+Iter 4 MPI_Isend: 0.000505 ms
+Iter 4 Compute: 10.0015 ms
+Iter 5 MPI_Isend: 0.000442 ms
+Iter 5 Compute: 10.0015 ms
+Iter 6 MPI_Isend: 0.000631 ms
+Iter 6 Compute: 10.0016 ms
+Iter 7 MPI_Isend: 0.000455 ms
+Iter 7 Compute: 10.0016 ms
+Iter 8 MPI_Isend: 0.000483 ms
+Iter 8 Compute: 10.0016 ms
+Iter 9 MPI_Isend: 0.00043 ms
+Iter 9 Compute: 10.0016 ms
+Wait Request: 642.88 ms
+Total: 743.077 ms
+
+Iter 0 MPI_Send: 83.5525 ms
+Iter 0 Compute: 20.0649 ms
+Iter 1 MPI_Send: 83.7387 ms
+Iter 1 Compute: 20.0062 ms
+Iter 2 MPI_Send: 83.7621 ms
+Iter 2 Compute: 20.0042 ms
+Iter 3 MPI_Send: 83.773 ms
+Iter 3 Compute: 20.0041 ms
+Iter 4 MPI_Send: 83.7891 ms
+Iter 4 Compute: 20.0033 ms
+Iter 5 MPI_Send: 83.8017 ms
+Iter 5 Compute: 20.0037 ms
+Iter 6 MPI_Send: 83.7797 ms
+Iter 6 Compute: 20.0059 ms
+Iter 7 MPI_Send: 83.8683 ms
+Iter 7 Compute: 20.0032 ms
+Iter 8 MPI_Send: 83.8868 ms
+Iter 8 Compute: 20.0152 ms
+Iter 9 MPI_Send: 83.8717 ms
+Iter 9 Compute: 20.0049 ms
+Total: 1037.98 ms
+
+Iter 0 MPI_Isend: 0.048157 ms
+Iter 0 Compute: 20.062 ms
+Iter 1 MPI_Isend: 0.001492 ms
+Iter 1 Compute: 20.0024 ms
+Iter 2 MPI_Isend: 0.000453 ms
+Iter 2 Compute: 20.0016 ms
+Iter 3 MPI_Isend: 0.000427 ms
+Iter 3 Compute: 20.0014 ms
+Iter 4 MPI_Isend: 0.000431 ms
+Iter 4 Compute: 20.0014 ms
+Iter 5 MPI_Isend: 0.000422 ms
+Iter 5 Compute: 20.0014 ms
+Iter 6 MPI_Isend: 0.000425 ms
+Iter 6 Compute: 20.0013 ms
+Iter 7 MPI_Isend: 0.028147 ms
+Iter 7 Compute: 20.0022 ms
+Iter 8 MPI_Isend: 0.00078 ms
+Iter 8 Compute: 20.0015 ms
+Iter 9 MPI_Isend: 0.000521 ms
+Iter 9 Compute: 20.0014 ms
+Wait Request: 542.808 ms
+Total: 743.019 ms
+
+Iter 0 MPI_Send: 86.6604 ms
+Iter 0 Compute: 40.0679 ms
+Iter 1 MPI_Send: 87.4292 ms
+Iter 1 Compute: 40.0048 ms
+Iter 2 MPI_Send: 87.4403 ms
+Iter 2 Compute: 40.0062 ms
+Iter 3 MPI_Send: 87.4472 ms
+Iter 3 Compute: 40.0033 ms
+Iter 4 MPI_Send: 87.4389 ms
+Iter 4 Compute: 40.0042 ms
+Iter 5 MPI_Send: 87.4116 ms
+Iter 5 Compute: 40.0062 ms
+Iter 6 MPI_Send: 87.467 ms
+Iter 6 Compute: 40.0123 ms
+Iter 7 MPI_Send: 87.3765 ms
+Iter 7 Compute: 40.0043 ms
+Iter 8 MPI_Send: 87.4683 ms
+Iter 8 Compute: 40.0033 ms
+Iter 9 MPI_Send: 87.4711 ms
+Iter 9 Compute: 40.0142 ms
+Total: 1273.77 ms
+
+Iter 0 MPI_Isend: 0.047843 ms
+Iter 0 Compute: 40.0606 ms
+Iter 1 MPI_Isend: 0.001338 ms
+Iter 1 Compute: 40.0027 ms
+Iter 2 MPI_Isend: 0.000615 ms
+Iter 2 Compute: 40.0019 ms
+Iter 3 MPI_Isend: 0.03193 ms
+Iter 3 Compute: 40.0031 ms
+Iter 4 MPI_Isend: 0.000687 ms
+Iter 4 Compute: 40.0017 ms
+Iter 5 MPI_Isend: 0.000421 ms
+Iter 5 Compute: 40.0016 ms
+Iter 6 MPI_Isend: 0.000452 ms
+Iter 6 Compute: 40.0016 ms
+Iter 7 MPI_Isend: 0.000567 ms
+Iter 7 Compute: 40.0016 ms
+Iter 8 MPI_Isend: 0.00047 ms
+Iter 8 Compute: 40.0017 ms
+Iter 9 MPI_Isend: 0.000996 ms
+Iter 9 Compute: 40.0017 ms
+Wait Request: 354.497 ms
+Total: 754.72 ms
+
+Iter 0 MPI_Send: 83.9274 ms
+Iter 0 Compute: 80.0652 ms
+Iter 1 MPI_Send: 84.6326 ms
+Iter 1 Compute: 80.0043 ms
+Iter 2 MPI_Send: 84.6408 ms
+Iter 2 Compute: 80.0042 ms
+Iter 3 MPI_Send: 84.6598 ms
+Iter 3 Compute: 80.004 ms
+Iter 4 MPI_Send: 84.6705 ms
+Iter 4 Compute: 80.0034 ms
+Iter 5 MPI_Send: 84.8795 ms
+Iter 5 Compute: 80.0151 ms
+Iter 6 MPI_Send: 84.9789 ms
+Iter 6 Compute: 80.0037 ms
+Iter 7 MPI_Send: 84.9866 ms
+Iter 7 Compute: 80.0121 ms
+Iter 8 MPI_Send: 84.974 ms
+Iter 8 Compute: 80.0038 ms
+Iter 9 MPI_Send: 84.9904 ms
+Iter 9 Compute: 80.0045 ms
+Total: 1647.51 ms
+
+Iter 0 MPI_Isend: 0.049438 ms
+Iter 0 Compute: 80.0602 ms
+Iter 1 MPI_Isend: 0.00187 ms
+Iter 1 Compute: 80.0027 ms
+Iter 2 MPI_Isend: 0.001048 ms
+Iter 2 Compute: 80.0022 ms
+Iter 3 MPI_Isend: 0.010368 ms
+Iter 3 Compute: 80.002 ms
+Iter 4 MPI_Isend: 0.001071 ms
+Iter 4 Compute: 80.0019 ms
+Iter 5 MPI_Isend: 0.000795 ms
+Iter 5 Compute: 80.0018 ms
+Iter 6 MPI_Isend: 0.001375 ms
+Iter 6 Compute: 80.0017 ms
+Iter 7 MPI_Isend: 0.00079 ms
+Iter 7 Compute: 80.0018 ms
+Iter 8 MPI_Isend: 0.000846 ms
+Iter 8 Compute: 80.0017 ms
+Iter 9 MPI_Isend: 0.001348 ms
+Iter 9 Compute: 80.0018 ms
+Wait Request: 0.012651 ms
+Total: 800.222 ms
+
+Iter 0 MPI_Send: 83.3518 ms
+Iter 0 Compute: 160.067 ms
+Iter 1 MPI_Send: 84.1487 ms
+Iter 1 Compute: 160.006 ms
+Iter 2 MPI_Send: 84.2486 ms
+Iter 2 Compute: 160.004 ms
+Iter 3 MPI_Send: 84.3109 ms
+Iter 3 Compute: 160.003 ms
+Iter 4 MPI_Send: 84.3395 ms
+Iter 4 Compute: 160.006 ms
+Iter 5 MPI_Send: 84.4425 ms
+Iter 5 Compute: 160.014 ms
+Iter 6 MPI_Send: 84.4715 ms
+Iter 6 Compute: 160.004 ms
+Iter 7 MPI_Send: 84.6248 ms
+Iter 7 Compute: 160.004 ms
+Iter 8 MPI_Send: 84.5874 ms
+Iter 8 Compute: 160.006 ms
+Iter 9 MPI_Send: 84.6114 ms
+Iter 9 Compute: 160.013 ms
+Total: 2443.34 ms
+
+Iter 0 MPI_Isend: 0.042727 ms
+Iter 0 Compute: 160.062 ms
+Iter 1 MPI_Isend: 0.011196 ms
+Iter 1 Compute: 160.002 ms
+Iter 2 MPI_Isend: 0.00075 ms
+Iter 2 Compute: 160.002 ms
+Iter 3 MPI_Isend: 0.001188 ms
+Iter 3 Compute: 160.002 ms
+Iter 4 MPI_Isend: 0.000935 ms
+Iter 4 Compute: 160.002 ms
+Iter 5 MPI_Isend: 0.000498 ms
+Iter 5 Compute: 160.001 ms
+Iter 6 MPI_Isend: 0.040137 ms
+Iter 6 Compute: 160.002 ms
+Iter 7 MPI_Isend: 0.000931 ms
+Iter 7 Compute: 160.001 ms
+Iter 8 MPI_Isend: 0.018257 ms
+Iter 8 Compute: 160.002 ms
+Iter 9 MPI_Isend: 0.000572 ms
+Iter 9 Compute: 160.001 ms
+Wait Request: 0.04317 ms
+Total: 1600.31 ms
