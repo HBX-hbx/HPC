@@ -1,0 +1,120 @@
+< ------- n: 1024, p: 2, N: 1 ------- >
+Correct.
+MPI_Allreduce:   0.115303 ms.
+Naive_Allreduce: 0.22235 ms.
+Ring_Allreduce:  0.12677 ms.
+< ------- n: 1024, p: 4, N: 1 ------- >
+Correct.
+MPI_Allreduce:   0.187502 ms.
+Naive_Allreduce: 0.306813 ms.
+Ring_Allreduce:  0.195607 ms.
+< ------- n: 1024, p: 8, N: 1 ------- >
+Correct.
+MPI_Allreduce:   0.233642 ms.
+Naive_Allreduce: 0.31693 ms.
+Ring_Allreduce:  0.224757 ms.
+< ------- n: 1024, p: 16, N: 1 ------- >
+Correct.
+MPI_Allreduce:   0.328218 ms.
+Naive_Allreduce: 0.372476 ms.
+Ring_Allreduce:  0.335371 ms.
+< ------- n: 32768, p: 2, N: 1 ------- >
+Correct.
+MPI_Allreduce:   1.41175 ms.
+Naive_Allreduce: 1.77609 ms.
+Ring_Allreduce:  1.12869 ms.
+< ------- n: 32768, p: 4, N: 1 ------- >
+Correct.
+MPI_Allreduce:   2.18847 ms.
+Naive_Allreduce: 3.22673 ms.
+Ring_Allreduce:  1.90558 ms.
+< ------- n: 32768, p: 8, N: 1 ------- >
+Correct.
+MPI_Allreduce:   2.0692 ms.
+Naive_Allreduce: 3.38255 ms.
+Ring_Allreduce:  2.62621 ms.
+< ------- n: 32768, p: 16, N: 1 ------- >
+Correct.
+MPI_Allreduce:   1.67368 ms.
+Naive_Allreduce: 3.23829 ms.
+Ring_Allreduce:  1.51073 ms.
+< ------- n: 1048576, p: 2, N: 1 ------- >
+Correct.
+MPI_Allreduce:   23.1996 ms.
+Naive_Allreduce: 30.3268 ms.
+Ring_Allreduce:  21.9561 ms.
+< ------- n: 1048576, p: 4, N: 1 ------- >
+Correct.
+MPI_Allreduce:   32.9582 ms.
+Naive_Allreduce: 46.5607 ms.
+Ring_Allreduce:  29.8168 ms.
+< ------- n: 1048576, p: 8, N: 1 ------- >
+Correct.
+MPI_Allreduce:   46.7107 ms.
+Naive_Allreduce: 57.877 ms.
+Ring_Allreduce:  43.2431 ms.
+< ------- n: 1048576, p: 16, N: 1 ------- >
+Correct.
+MPI_Allreduce:   53.1162 ms.
+Naive_Allreduce: 66.7656 ms.
+Ring_Allreduce:  53.4931 ms.
+< ------- n: 1024, p: 2, N: 2 ------- >
+Correct.
+MPI_Allreduce:   0.097643 ms.
+Naive_Allreduce: 0.119063 ms.
+Ring_Allreduce:  0.084409 ms.
+< ------- n: 1024, p: 4, N: 2 ------- >
+Correct.
+MPI_Allreduce:   0.201034 ms.
+Naive_Allreduce: 0.291444 ms.
+Ring_Allreduce:  0.214173 ms.
+< ------- n: 1024, p: 8, N: 2 ------- >
+Correct.
+MPI_Allreduce:   0.322703 ms.
+Naive_Allreduce: 0.415348 ms.
+Ring_Allreduce:  0.32716 ms.
+< ------- n: 1024, p: 16, N: 2 ------- >
+Correct.
+MPI_Allreduce:   0.507563 ms.
+Naive_Allreduce: 0.515228 ms.
+Ring_Allreduce:  0.491788 ms.
+< ------- n: 32768, p: 2, N: 2 ------- >
+Correct.
+MPI_Allreduce:   0.909532 ms.
+Naive_Allreduce: 1.25772 ms.
+Ring_Allreduce:  0.864494 ms.
+< ------- n: 32768, p: 4, N: 2 ------- >
+Correct.
+MPI_Allreduce:   2.37275 ms.
+Naive_Allreduce: 3.86773 ms.
+Ring_Allreduce:  2.29529 ms.
+< ------- n: 32768, p: 8, N: 2 ------- >
+Correct.
+MPI_Allreduce:   2.75309 ms.
+Naive_Allreduce: 5.24294 ms.
+Ring_Allreduce:  3.23659 ms.
+< ------- n: 32768, p: 16, N: 2 ------- >
+Correct.
+MPI_Allreduce:   2.63628 ms.
+Naive_Allreduce: 5.3256 ms.
+Ring_Allreduce:  2.07618 ms.
+< ------- n: 1048576, p: 2, N: 2 ------- >
+Correct.
+MPI_Allreduce:   14.9008 ms.
+Naive_Allreduce: 22.3426 ms.
+Ring_Allreduce:  14.0672 ms.
+< ------- n: 1048576, p: 4, N: 2 ------- >
+Correct.
+MPI_Allreduce:   31.4416 ms.
+Naive_Allreduce: 45.6233 ms.
+Ring_Allreduce:  26.902 ms.
+< ------- n: 1048576, p: 8, N: 2 ------- >
+Correct.
+MPI_Allreduce:   39.0054 ms.
+Naive_Allreduce: 59.1673 ms.
+Ring_Allreduce:  41.8886 ms.
+< ------- n: 1048576, p: 16, N: 2 ------- >
+Correct.
+MPI_Allreduce:   48.6776 ms.
+Naive_Allreduce: 77.7277 ms.
+Ring_Allreduce:  51.8548 ms.
