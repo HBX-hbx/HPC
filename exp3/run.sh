@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=10 srun -N 1 ./omp_sched
