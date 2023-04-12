@@ -1,4 +1,4 @@
-# 小作业四：自动向量化与基于 `intrinsic` 的手动向量化
+# 小作业五：自动向量化与基于 `intrinsic` 的手动向量化
 
 <center><font size=4>计04 何秉翔 2020010944</font></center>
 
