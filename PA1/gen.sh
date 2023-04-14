@@ -1,3 +1,4 @@
-n=99
-
-./generate $n ./my_data/$n.dat
+for n in 999 257 33333 1234 9876 1045 32447 4377489 33333333 2147483645
+do
+	./generate $n ./my_data/$n.dat
+done
