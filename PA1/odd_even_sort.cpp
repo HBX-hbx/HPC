@@ -9,18 +9,15 @@
 // send the min val to the pred process, recv the max val from the pred process, and check
 void check_pred(float* data, float* curr_data, float* recv_data, int rank, size_t pred_block_len, size_t block_len, int nprocs_not_oor) {
   MPI_Request req[2];
-  float recv_val = -1; // receive the value from the pred process
+  float recv_val = -1; // receive the min value from the pred process
 
   if (rank > 0 && rank < nprocs_not_oor) {
-    // printf("process %d sending data to process %d\n", rank, rank - 1);
-    // printf("process %d recving data from process %d\n", rank, rank - 1);
     MPI_Isend(&data[0], 1, MPI_FLOAT, rank - 1, 0, MPI_COMM_WORLD, &req[0]);
     MPI_Irecv(&recv_val, 1, MPI_FLOAT, rank - 1, 0, MPI_COMM_WORLD,  &req[1]);
     MPI_Waitall(2, req, MPI_STATUS_IGNORE);
 
     if (recv_val - data[0] > 1e-15) {
       // reallocate data with the pred process
-      // TODO: 
       MPI_Isend(data, block_len, MPI_FLOAT, rank - 1, 0, MPI_COMM_WORLD, &req[0]);
       MPI_Irecv(recv_data, pred_block_len, MPI_FLOAT, rank - 1, 0, MPI_COMM_WORLD, &req[1]);
       memcpy(curr_data, data, block_len * sizeof(float)); // copy from data to curr_data
@@ -42,18 +39,15 @@ void check_pred(float* data, float* curr_data, float* recv_data, int rank, size_
 // send the max val to the succ process, recv the min val from the succ process, and check
 void check_succ(float* data, float* curr_data, float* recv_data, int rank, size_t succ_block_len, size_t block_len, int nprocs_not_oor) {
   MPI_Request req[2];
-  float recv_val = -1; // receive the value from the pred process
+  float recv_val = -1; // receive the max value from the pred process
 
   if (rank < nprocs_not_oor - 1) {
-    // printf("process %d sending data to process %d\n", rank, rank + 1);
-    // printf("process %d recving data from process %d\n", rank, rank + 1);
     MPI_Isend(&data[block_len - 1], 1, MPI_FLOAT, rank + 1, 0, MPI_COMM_WORLD, &req[0]);
     MPI_Irecv(&recv_val, 1, MPI_FLOAT, rank + 1, 0, MPI_COMM_WORLD, &req[1]);
     MPI_Waitall(2, req, MPI_STATUS_IGNORE);
 
     if (data[block_len - 1] - recv_val > 1e-15) {
       // reallocate data with the succ process
-      // TODO: 
       MPI_Isend(data, block_len, MPI_FLOAT, rank + 1, 0, MPI_COMM_WORLD, &req[0]);
       MPI_Irecv(recv_data, succ_block_len, MPI_FLOAT, rank + 1, 0, MPI_COMM_WORLD, &req[1]);
       memcpy(curr_data, data, block_len * sizeof(float)); // copy from data to curr_data
@@ -91,10 +85,8 @@ void Worker::sort() {
   size_t pred_block_len = 0, succ_block_len = 0;
 
   // ex: n = 99,  nprocs = 28, block_size = 4,  0~23: 4,  24: 3,  25~27: 0
-  // ex: n = 100, nprocs = 11, block_size = 10, 0~9: 10,  10: 0
-  // nprocs_not_oor: 25 / 10
-  int nprocs_not_oor = ceiling(n, block_size);
-  // if (rank >= nprocs_not_oor) return;
+  // nprocs_not_oor: 25
+  int nprocs_not_oor = ceiling(n, block_size); // number of process that not out of bound
 
   if (rank > 0 && rank < nprocs_not_oor) {
     pred_block_len = block_size;
@@ -106,11 +98,9 @@ void Worker::sort() {
   } else if (rank == nprocs_not_oor - 2) {
     succ_block_len = n - block_size * (rank + 1);
   }
-  // printf("rank %d, nprocs_not_oor: %d, pred_bsz: %ld, succ_bsz: %ld\n", rank, nprocs_not_oor, pred_block_len, succ_block_len);
 
   float *recv_data = new float[block_size];
   float *curr_data = new float[block_len]; // copy of data
-
 
   for (int i = 0; i < nprocs_not_oor; i += 2) {
     if (is_even_proc) { // even process
