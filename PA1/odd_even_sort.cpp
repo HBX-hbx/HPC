@@ -112,7 +112,7 @@ void Worker::sort() {
   float *curr_data = new float[block_len]; // copy of data
 
 
-  for (int i = 0; i < nprocs_not_oor; ++i) {
+  for (int i = 0; i < nprocs_not_oor; i += 2) {
     if (is_even_proc) { // even process
       check_succ(data, curr_data, recv_data, rank, succ_block_len, block_len, nprocs_not_oor); // step 2: even_part
       check_pred(data, curr_data, recv_data, rank, pred_block_len, block_len, nprocs_not_oor); // step 3: odd part
