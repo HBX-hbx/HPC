@@ -1,0 +1,1 @@
+srun -p gpu --exclusive ./test_gmem
