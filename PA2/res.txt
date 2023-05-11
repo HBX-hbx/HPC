@@ -1,2 +1,0 @@
-Validation Passed
-Time: 12.548067 ms
