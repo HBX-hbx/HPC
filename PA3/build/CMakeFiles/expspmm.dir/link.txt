@@ -1,0 +1,2 @@
+/usr/bin/ar qc libexpspmm.a CMakeFiles/expspmm.dir/src/data.cu.o CMakeFiles/expspmm.dir/src/util.cu.o CMakeFiles/expspmm.dir/src/valid.cu.o CMakeFiles/expspmm.dir/src/spmm_ref.cu.o CMakeFiles/expspmm.dir/src/spmm_opt.cu.o CMakeFiles/expspmm.dir/src/spmm_cusparse.cu.o CMakeFiles/expspmm.dir/src/spmm_cpu_ref.cpp.o CMakeFiles/expspmm.dir/src/spmm_cpu_opt.cpp.o
+/usr/bin/ranlib libexpspmm.a
