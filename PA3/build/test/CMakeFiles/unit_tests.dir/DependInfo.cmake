@@ -13,7 +13,6 @@ set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 set(CMAKE_CUDA_TARGET_INCLUDE_PATH
   ".././include"
   "/home/course/hpc/users/2020010944/local/include"
-  "../third_party"
   "../third_party/googletest/googletest/include"
   "../third_party/googletest/googletest"
   )
@@ -27,7 +26,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././include"
   "/home/course/hpc/users/2020010944/local/include"
-  "../third_party"
   "../third_party/googletest/googletest/include"
   "../third_party/googletest/googletest"
   )

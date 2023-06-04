@@ -6,19 +6,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 13155
-[       OK ] SpMMTest.validation (407 ms)
+[       OK ] SpMMTest.validation (406 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00299513 (double)
-[       OK ] SpMMTest.cusparse_performance (1198 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00304869 (double)
+[       OK ] SpMMTest.cusparse_performance (1255 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 13155
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00371592 (double)
-[       OK ] SpMMTest.opt_performance (114 ms)
-[----------] 3 tests from SpMMTest (1721 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00353364 (double)
+[       OK ] SpMMTest.opt_performance (112 ms)
+[----------] 3 tests from SpMMTest (1775 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (1721 ms total)
+[==========] 3 tests from 1 test suite ran. (1775 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "collab" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -28,19 +26,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 671
-[       OK ] SpMMTest.validation (222 ms)
+[       OK ] SpMMTest.validation (225 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00520226 (double)
-[       OK ] SpMMTest.cusparse_performance (358 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00520345 (double)
+[       OK ] SpMMTest.cusparse_performance (362 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 671
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00434216 (double)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00433981 (double)
 [       OK ] SpMMTest.opt_performance (136 ms)
-[----------] 3 tests from SpMMTest (718 ms total)
+[----------] 3 tests from SpMMTest (724 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (718 ms total)
+[==========] 3 tests from 1 test suite ran. (724 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "citation" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -50,19 +46,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 1738
-[       OK ] SpMMTest.validation (2960 ms)
+[       OK ] SpMMTest.validation (2943 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0788464 (double)
-[       OK ] SpMMTest.cusparse_performance (2440 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0789575 (double)
+[       OK ] SpMMTest.cusparse_performance (2456 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 1738
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0691967 (double)
-[       OK ] SpMMTest.opt_performance (2037 ms)
-[----------] 3 tests from SpMMTest (7438 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0691601 (double)
+[       OK ] SpMMTest.opt_performance (2005 ms)
+[----------] 3 tests from SpMMTest (7406 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (7438 ms total)
+[==========] 3 tests from 1 test suite ran. (7406 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "ddi" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -72,19 +66,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 2234
 [       OK ] SpMMTest.validation (104 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00154669 (double)
-[       OK ] SpMMTest.cusparse_performance (244 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.00154389 (double)
+[       OK ] SpMMTest.cusparse_performance (239 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 2234
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.00156743 (double)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0015495 (double)
 [       OK ] SpMMTest.opt_performance (40 ms)
-[----------] 3 tests from SpMMTest (389 ms total)
+[----------] 3 tests from SpMMTest (383 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (389 ms total)
+[==========] 3 tests from 1 test suite ran. (384 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "protein" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -94,19 +86,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 7750
-[       OK ] SpMMTest.validation (7192 ms)
+[       OK ] SpMMTest.validation (7395 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.080414 (double)
-[       OK ] SpMMTest.cusparse_performance (2230 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0804269 (double)
+[       OK ] SpMMTest.cusparse_performance (2233 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 7750
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0681947 (double)
-[       OK ] SpMMTest.opt_performance (1730 ms)
-[----------] 3 tests from SpMMTest (11152 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0681956 (double)
+[       OK ] SpMMTest.opt_performance (1732 ms)
+[----------] 3 tests from SpMMTest (11361 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (11152 ms total)
+[==========] 3 tests from 1 test suite ran. (11361 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "ppa" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -116,19 +106,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 3241
-[       OK ] SpMMTest.validation (3858 ms)
+[       OK ] SpMMTest.validation (3863 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0849576 (double)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0849742 (double)
 [       OK ] SpMMTest.cusparse_performance (2368 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 3241
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0809044 (double)
-[       OK ] SpMMTest.opt_performance (2081 ms)
-[----------] 3 tests from SpMMTest (8308 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0807712 (double)
+[       OK ] SpMMTest.opt_performance (2064 ms)
+[----------] 3 tests from SpMMTest (8297 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (8308 ms total)
+[==========] 3 tests from 1 test suite ran. (8297 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "reddit.dgl" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -138,19 +126,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 21657
-[       OK ] SpMMTest.validation (10206 ms)
+[       OK ] SpMMTest.validation (10232 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.20213 (double)
-[       OK ] SpMMTest.cusparse_performance (5283 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.202128 (double)
+[       OK ] SpMMTest.cusparse_performance (5282 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 21657
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.183067 (double)
-[       OK ] SpMMTest.opt_performance (4613 ms)
-[----------] 3 tests from SpMMTest (20102 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.182897 (double)
+[       OK ] SpMMTest.opt_performance (4611 ms)
+[----------] 3 tests from SpMMTest (20127 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (20102 ms total)
+[==========] 3 tests from 1 test suite ran. (20127 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "products" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -160,19 +146,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 17481
-[       OK ] SpMMTest.validation (11362 ms)
+[       OK ] SpMMTest.validation (11238 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.258384 (double)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.258484 (double)
 [       OK ] SpMMTest.cusparse_performance (6830 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 17481
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.247488 (double)
-[       OK ] SpMMTest.opt_performance (6451 ms)
-[----------] 3 tests from SpMMTest (24644 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.247178 (double)
+[       OK ] SpMMTest.opt_performance (6397 ms)
+[----------] 3 tests from SpMMTest (24466 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (24644 ms total)
+[==========] 3 tests from 1 test suite ran. (24466 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "youtube" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -182,19 +166,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 28754
-[       OK ] SpMMTest.validation (1269 ms)
+[       OK ] SpMMTest.validation (1239 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0144143 (double)
-[       OK ] SpMMTest.cusparse_performance (635 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0144297 (double)
+[       OK ] SpMMTest.cusparse_performance (637 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 28754
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0143425 (double)
-[       OK ] SpMMTest.opt_performance (439 ms)
-[----------] 3 tests from SpMMTest (2343 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0143073 (double)
+[       OK ] SpMMTest.opt_performance (415 ms)
+[----------] 3 tests from SpMMTest (2293 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (2343 ms total)
+[==========] 3 tests from 1 test suite ran. (2293 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "amazon_cogdl" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -204,19 +186,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 75134
-[       OK ] SpMMTest.validation (22056 ms)
+[       OK ] SpMMTest.validation (22130 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.515687 (double)
-[       OK ] SpMMTest.cusparse_performance (13221 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.515629 (double)
+[       OK ] SpMMTest.cusparse_performance (13217 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 75134
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.434197 (double)
-[       OK ] SpMMTest.opt_performance (10977 ms)
-[----------] 3 tests from SpMMTest (46255 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.434166 (double)
+[       OK ] SpMMTest.opt_performance (10947 ms)
+[----------] 3 tests from SpMMTest (46294 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (46255 ms total)
+[==========] 3 tests from 1 test suite ran. (46294 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "yelp" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -226,19 +206,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 4886
-[       OK ] SpMMTest.validation (1323 ms)
+[       OK ] SpMMTest.validation (1325 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0299773 (double)
-[       OK ] SpMMTest.cusparse_performance (997 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0300014 (double)
+[       OK ] SpMMTest.cusparse_performance (1000 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 4886
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0266581 (double)
-[       OK ] SpMMTest.opt_performance (729 ms)
-[----------] 3 tests from SpMMTest (3050 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0266244 (double)
+[       OK ] SpMMTest.opt_performance (712 ms)
+[----------] 3 tests from SpMMTest (3038 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (3050 ms total)
+[==========] 3 tests from 1 test suite ran. (3038 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "wikikg2" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -248,19 +226,17 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 911
-[       OK ] SpMMTest.validation (582 ms)
+[       OK ] SpMMTest.validation (564 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0166486 (double)
-[       OK ] SpMMTest.cusparse_performance (774 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0167668 (double)
+[       OK ] SpMMTest.cusparse_performance (786 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 911
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0195885 (double)
-[       OK ] SpMMTest.opt_performance (751 ms)
-[----------] 3 tests from SpMMTest (2108 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0153181 (double)
+[       OK ] SpMMTest.opt_performance (600 ms)
+[----------] 3 tests from SpMMTest (1950 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (2108 ms total)
+[==========] 3 tests from 1 test suite ran. (1950 ms total)
 [  PASSED  ] 3 tests.
 [..0944/PA3/src/util.cu:74 (argParse)] dset = "am" (std::string)
 [..0944/PA3/src/data.cu:5 (load_graph)] loading
@@ -270,17 +246,15 @@ Note: Google Test filter = SpMMTest.*
 [----------] Global test environment set-up.
 [----------] 3 tests from SpMMTest
 [ RUN      ] SpMMTest.validation
-MAX_NUM_NNZ_PER_ROW: 154828
-[       OK ] SpMMTest.validation (4953 ms)
+[       OK ] SpMMTest.validation (4950 ms)
 [ RUN      ] SpMMTest.cusparse_performance
-[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.0134087 (double)
-[       OK ] SpMMTest.cusparse_performance (589 ms)
+[..A3/test/test_spmm.cu:52 (TestBody)] time = 0.013416 (double)
+[       OK ] SpMMTest.cusparse_performance (593 ms)
 [ RUN      ] SpMMTest.opt_performance
-MAX_NUM_NNZ_PER_ROW: 154828
-[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0251257 (double)
-[       OK ] SpMMTest.opt_performance (700 ms)
-[----------] 3 tests from SpMMTest (6242 ms total)
+[..A3/test/test_spmm.cu:61 (TestBody)] time = 0.0244934 (double)
+[       OK ] SpMMTest.opt_performance (665 ms)
+[----------] 3 tests from SpMMTest (6210 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (6242 ms total)
+[==========] 3 tests from 1 test suite ran. (6210 ms total)
 [  PASSED  ] 3 tests.

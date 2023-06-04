@@ -18,7 +18,6 @@ set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 set(CMAKE_CUDA_TARGET_INCLUDE_PATH
   ".././include"
   "/home/course/hpc/users/2020010944/local/include"
-  "../third_party"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/course/hpc/users/2020010944/PA3/src/spmm_cpu_opt.cpp" "/home/course/hpc/users/2020010944/PA3/build/CMakeFiles/expspmm.dir/src/spmm_cpu_opt.cpp.o"
@@ -30,7 +29,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././include"
   "/home/course/hpc/users/2020010944/local/include"
-  "../third_party"
   )
 
 # Targets to which this target links.

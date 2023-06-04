@@ -1,22 +1,22 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_97697/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97697.dir/build.make CMakeFiles/cmTC_97697.dir/build
+Run Build Command(s):/usr/bin/gmake cmTC_c36b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c36b2.dir/build.make CMakeFiles/cmTC_c36b2.dir/build
 gmake[1]: Entering directory '/home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_97697.dir/src.cxx.o
-/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_97697.dir/src.cxx.o -c /home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_97697
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97697.dir/link.txt --verbose=1
-/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_97697.dir/src.cxx.o -o cmTC_97697 
-/usr/bin/ld: CMakeFiles/cmTC_97697.dir/src.cxx.o: in function `main':
+Building CXX object CMakeFiles/cmTC_c36b2.dir/src.cxx.o
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_c36b2.dir/src.cxx.o -c /home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c36b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c36b2.dir/link.txt --verbose=1
+/usr/bin/c++  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_c36b2.dir/src.cxx.o -o cmTC_c36b2 
+/usr/bin/ld: CMakeFiles/cmTC_c36b2.dir/src.cxx.o: in function `main':
 src.cxx:(.text+0x2f): undefined reference to `pthread_create'
 /usr/bin/ld: src.cxx:(.text+0x3b): undefined reference to `pthread_detach'
 /usr/bin/ld: src.cxx:(.text+0x47): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.cxx:(.text+0x58): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_97697.dir/build.make:106: cmTC_97697] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_c36b2.dir/build.make:106: cmTC_c36b2] Error 1
 gmake[1]: Leaving directory '/home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_97697/fast] Error 2
+gmake: *** [Makefile:140: cmTC_c36b2/fast] Error 2
 
 
 Source file was:
@@ -43,18 +43,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_4e97d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e97d.dir/build.make CMakeFiles/cmTC_4e97d.dir/build
+Run Build Command(s):/usr/bin/gmake cmTC_2ea0c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ea0c.dir/build.make CMakeFiles/cmTC_2ea0c.dir/build
 gmake[1]: Entering directory '/home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4e97d.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_4e97d.dir/CheckFunctionExists.cxx.o -c /home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_4e97d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e97d.dir/link.txt --verbose=1
-/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_4e97d.dir/CheckFunctionExists.cxx.o -o cmTC_4e97d  -lpthreads 
+Building CXX object CMakeFiles/cmTC_2ea0c.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_2ea0c.dir/CheckFunctionExists.cxx.o -c /home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_2ea0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea0c.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_2ea0c.dir/CheckFunctionExists.cxx.o -o cmTC_2ea0c  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_4e97d.dir/build.make:106: cmTC_4e97d] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_2ea0c.dir/build.make:106: cmTC_2ea0c] Error 1
 gmake[1]: Leaving directory '/home/course/hpc/users/2020010944/PA3/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:140: cmTC_4e97d/fast] Error 2
+gmake: *** [Makefile:140: cmTC_2ea0c/fast] Error 2
 
 
 

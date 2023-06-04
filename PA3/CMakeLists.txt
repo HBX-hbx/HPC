@@ -56,7 +56,7 @@ target_compile_features(expspmm PUBLIC cxx_std_11)
 include_directories(/usr/local/cuda-11.1/targets/x86_64-linux/include/)
 
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/third_party/googletest/)
-include_directories(${CMAKE_CURRENT_LIST_DIR}/third_party/)
+# include_directories(${CMAKE_CURRENT_LIST_DIR}/third_party/)
 
 # We need to explicitly state that we need all CUDA files in the particle
 # library to be built with -dc as the member functions could be called by
